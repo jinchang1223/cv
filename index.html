@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Curriculum vitae of Chang Jin.">
+    <meta name="theme-color" content="#f6f3ed">
+    <meta property="og:title" content="Chang Jin — Curriculum Vitae">
+    <meta property="og:description" content="View or download Chang Jin's curriculum vitae.">
+    <meta property="og:type" content="website">
+    <title>Chang Jin — Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="identity" href="./" aria-label="Chang Jin CV home">
+        <span class="monogram" aria-hidden="true">CJ</span>
+        <span>
+          <strong>Chang Jin</strong>
+          <small>Curriculum Vitae</small>
+        </span>
+      </a>
+
+      <nav class="actions" aria-label="CV actions">
+        <a class="button button-secondary" href="Chang_Jin_CV.pdf" target="_blank" rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M14 3h7v7m0-7-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" />
+          </svg>
+          <span>Open PDF</span>
+        </a>
+        <a class="button button-primary" href="Chang_Jin_CV.pdf" download>
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" />
+          </svg>
+          <span>Download</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="mobile-prompt" aria-label="PDF viewing options">
+        <p>For the best reading experience on mobile, open the CV in your PDF viewer.</p>
+        <a href="Chang_Jin_CV.pdf" target="_blank" rel="noopener">Open CV</a>
+      </section>
+
+      <object
+        class="pdf-viewer"
+        data="Chang_Jin_CV.pdf#view=FitH&amp;toolbar=1&amp;navpanes=0"
+        type="application/pdf"
+        aria-label="Chang Jin's curriculum vitae"
+      >
+        <section class="fallback">
+          <div class="fallback-card">
+            <span class="document-icon" aria-hidden="true">PDF</span>
+            <h1>Chang Jin's CV</h1>
+            <p>Your browser cannot display the PDF inline.</p>
+            <a class="button button-primary" href="Chang_Jin_CV.pdf" target="_blank" rel="noopener">Open the PDF</a>
+          </div>
+        </section>
+      </object>
+    </main>
+  </body>
+</html>
